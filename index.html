@@ -4,404 +4,399 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#090a10">
-<meta name="description" content="Build your Amazon Kindle publishing business with Pritam Jagtap. Private offline support to set up and publish five books.">
-<title>Build Your Kindle Business | Pritam Jagtap</title>
+<meta name="theme-color" content="#090909">
+<title>Private Kindle Publishing Program | Sneha & Pritam</title>
+<meta name="description" content="Private one-to-one offline Amazon Kindle publishing support. Build and publish your first five books with Sneha and Pritam.">
 
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#090909;
+  --panel:#131313;
+  --red:#e33131;
+  --white:#f7f5f2;
+  --muted:#aaa;
+  --line:#292929;
+}
+*{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{
- background:#090a10;color:#f5f5f7;
- font-family:Arial,Helvetica,sans-serif;line-height:1.6
+  background:var(--bg);
+  color:var(--white);
+  font-family:'DM Sans',sans-serif;
+  line-height:1.65;
 }
-.container{width:90%;max-width:1150px;margin:auto}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,90%);margin:auto}
 nav{
- height:75px;display:flex;align-items:center;
- justify-content:space-between;border-bottom:1px solid #292936
+  display:flex;justify-content:space-between;align-items:center;
+  padding:22px 0;border-bottom:1px solid var(--line);
 }
-.logo{font-weight:900;letter-spacing:2px}
-.logo span{color:#ff4b55}
-nav a{color:#ccc;text-decoration:none;font-size:13px}
+.logo{font-weight:800;letter-spacing:1px}
+.logo span{color:var(--red)}
+.nav-link{font-size:13px;color:#ccc}
 .hero{
- padding:95px 0;display:grid;
- grid-template-columns:1.2fr .8fr;gap:50px;align-items:center
+  padding:100px 0 85px;
+  background:radial-gradient(ellipse at 80% 15%,#421313 0%,transparent 42%);
 }
-.tag{
- display:inline-block;padding:8px 15px;
- border:1px solid #703039;border-radius:30px;
- color:#ff858b;font-size:12px;letter-spacing:1px
+.eyebrow{
+  display:inline-block;color:#ff7777;border:1px solid #692525;
+  padding:7px 13px;border-radius:30px;font-size:11px;
+  letter-spacing:2px;text-transform:uppercase;margin-bottom:25px;
 }
+h1,h2,h3{line-height:1.15}
 h1{
- font-size:clamp(40px,6vw,68px);
- line-height:1.08;margin:25px 0;letter-spacing:-2px
+  font-family:'Playfair Display',serif;
+  font-size:clamp(42px,7vw,76px);
+  max-width:850px;letter-spacing:-1.5px;
 }
-h1 span{color:#ff4b55}
-.lead{color:#bbb;font-size:18px;max-width:650px}
-.buttons{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+h1 span{color:var(--red)}
+.hero p{max-width:650px;color:#bbb;font-size:17px;margin:25px 0 30px}
+.actions{display:flex;gap:13px;flex-wrap:wrap}
 .btn{
- display:inline-block;padding:15px 22px;border-radius:8px;
- text-decoration:none;font-weight:bold;font-size:14px;
- transition:.2s;cursor:pointer;border:0;text-align:center
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:15px 23px;border-radius:5px;font-weight:700;
+  font-size:14px;transition:.2s;cursor:pointer;border:0;
 }
-.primary{background:linear-gradient(110deg,#ff414d,#ff7958);color:white}
-.primary:hover{transform:translateY(-3px)}
-.secondary{border:1px solid #41414d;color:white}
-.book-btn{
- background:#f3f3f3;color:#111;
- border:1px solid #ddd
+.btn-primary{background:var(--red);color:white}
+.btn-primary:hover{background:#ff4545;transform:translateY(-2px)}
+.btn-outline{border:1px solid #555;color:white}
+.btn-outline:hover{border-color:white}
+.hero-note{font-size:12px!important;color:#888!important;margin-top:18px!important}
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  border:1px solid var(--line);margin-top:65px;
+  background:#101010;
 }
-.book-btn:hover{background:#fff;transform:translateY(-3px)}
-.offer{
- background:linear-gradient(145deg,#1b1d2a,#11121b);
- border:1px solid #343442;border-radius:20px;padding:30px
+.stat{padding:24px;border-right:1px solid var(--line)}
+.stat:last-child{border:0}
+.stat strong{display:block;font-size:23px;color:white}
+.stat small{color:#999;font-size:12px}
+section{padding:85px 0}
+.section-tag{color:#ff7777;font-size:11px;letter-spacing:2px;text-transform:uppercase}
+h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(32px,5vw,48px);margin:14px 0 18px;
 }
-.offer-label{color:#ff858b;font-size:12px;letter-spacing:2px;font-weight:bold}
-.price{font-size:48px;font-weight:900;margin-top:12px}
-.price small{font-size:13px;color:#aaa;font-weight:normal}
-.offer p{color:#aaa;font-size:14px;margin:10px 0}
-.offer ul{list-style:none;margin-top:20px}
-.offer li{padding:10px 0;border-top:1px solid #343442;font-size:14px}
-.offer li:before{content:"✓ ";color:#ff626c;font-weight:bold}
-section{padding:75px 0;border-top:1px solid #252530}
-.kicker{color:#ff727c;font-size:12px;font-weight:bold;letter-spacing:2px}
-h2{font-size:clamp(30px,4vw,44px);line-height:1.15;margin:15px 0}
-.section-desc{color:#aaa;max-width:700px;margin-bottom:35px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:#141620;border:1px solid #292b38;border-radius:13px;padding:24px}
-.number{color:#ff626c;font-size:12px;font-weight:bold}
-.card h3{margin:12px 0 8px;font-size:18px}
+.section-intro{max-width:650px;color:var(--muted);margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:27px;
+}
+.card .number{color:var(--red);font-size:12px;letter-spacing:2px}
+.card h3{font-size:19px;margin:15px 0 10px}
 .card p{color:#aaa;font-size:14px}
-.columns{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-.steps{display:grid;gap:13px}
-.step{background:#141620;border:1px solid #292b38;border-radius:12px;padding:18px}
-.step strong{display:block;margin-bottom:5px}
-.step p{font-size:13px;color:#aaa}
-.fit-list{list-style:none;margin-top:20px}
-.fit-list li{padding:12px 0;border-bottom:1px solid #292b38;font-size:14px}
-.fit-list li:before{content:"✓ ";color:#ff626c}
-.note{margin-top:25px;padding:20px;background:#141620;border:1px solid #292b38;border-radius:12px;color:#aaa;font-size:13px}
+.program{
+  background:linear-gradient(130deg,#1b1010,#111);
+  border:1px solid #4a2222;border-radius:10px;padding:40px;
+  display:grid;grid-template-columns:1.3fr .7fr;gap:35px;
+}
+.program ul{list-style:none;margin-top:20px}
+.program li{padding:9px 0;color:#ccc;border-bottom:1px solid #302020}
+.program li:before{content:"✓";color:#ff5555;margin-right:12px}
+.price-box{
+  background:#0b0b0b;border:1px solid #3b2929;
+  padding:28px;border-radius:8px;align-self:center;
+}
+.price{font-size:43px;font-weight:800;letter-spacing:-2px}
+.price-box small{color:#999}
+.price-box .btn{width:100%;margin-top:20px}
+.books{
+  display:grid;grid-template-columns:190px 1fr;gap:30px;
+  align-items:center;background:var(--panel);
+  border:1px solid var(--line);padding:25px;border-radius:8px;
+}
+.book-cover{
+  aspect-ratio:2/3;background:linear-gradient(145deg,#24151a,#080808);
+  border:1px solid #5a3030;display:flex;align-items:center;
+  justify-content:center;text-align:center;padding:18px;
+  font-family:'Playfair Display',serif;font-size:20px;
+}
+.books p{color:#aaa;margin:12px 0 18px;font-size:14px}
 .booking{
- background:#12141e;border:1px solid #343442;
- border-radius:18px;padding:25px
+  background:#111;border:1px solid var(--line);
+  border-radius:8px;padding:25px;
 }
-.booking h3{font-size:23px;margin-bottom:10px}
-.booking p{color:#aaa;font-size:14px;margin-bottom:20px}
-.calendly-inline-widget{
- min-width:320px;height:720px;border-radius:10px;overflow:hidden
+.calendly-inline-widget{min-width:280px;height:700px}
+form{display:grid;gap:15px}
+label{font-size:13px;color:#ccc}
+input,select,textarea{
+  width:100%;background:#0a0a0a;border:1px solid #383838;
+  border-radius:5px;padding:14px;color:white;font:inherit;
+  outline:none;
 }
-.book-section{
- display:grid;grid-template-columns:.8fr 1.2fr;
- gap:35px;align-items:center;
- background:linear-gradient(140deg,#171923,#11121b);
- border:1px solid #343442;border-radius:18px;padding:30px
-}
-.book-section p{color:#aaa;font-size:14px;margin:12px 0 20px}
-.book-label{color:#ff858b;font-size:11px;font-weight:bold;letter-spacing:2px}
-.book-section img{
- width:100%;max-width:260px;display:block;
- margin:auto;border-radius:8px;
- box-shadow:0 15px 35px #0008
-}
-.cta{
- text-align:center;background:linear-gradient(130deg,#29151d,#17121b);
- border:1px solid #63313a;border-radius:20px;padding:55px 25px
-}
-.cta p{color:#bbb;max-width:650px;margin:15px auto 25px}
-footer{padding:30px 0;border-top:1px solid #252530;color:#888;font-size:12px}
+input:focus,select:focus,textarea:focus{border-color:var(--red)}
+textarea{min-height:100px;resize:vertical}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:12px;color:#aaa}
+.consent input{width:auto;margin-top:5px}
+#formStatus{font-size:13px;color:#ddd}
+footer{border-top:1px solid var(--line);padding:30px 0;color:#888;font-size:12px}
 .footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-@media(max-width:800px){
- .hero{grid-template-columns:1fr;padding:60px 0}
- .grid{grid-template-columns:1fr 1fr}
- .columns{grid-template-columns:1fr}
- .book-section{grid-template-columns:1fr}
-}
-@media(max-width:540px){
- .grid{grid-template-columns:1fr}
- .price{font-size:40px}
- nav{height:65px}
- .hero{padding:50px 0}
- .calendly-inline-widget{height:750px}
- .book-section{padding:22px}
+@media(max-width:760px){
+  .hero{padding:70px 0 55px}
+  .stats{grid-template-columns:1fr}
+  .stat{border-right:0;border-bottom:1px solid var(--line)}
+  .cards{grid-template-columns:1fr}
+  .program{grid-template-columns:1fr;padding:25px}
+  .books{grid-template-columns:1fr}
+  .book-cover{max-width:190px}
+  section{padding:65px 0}
+  .calendly-inline-widget{height:650px}
 }
 </style>
 </head>
 
 <body>
-
-<nav class="container">
- <div class="logo">PRITAM <span>JAGTAP</span></div>
- <a href="#booking">BOOK A CALL →</a>
-</nav>
-
-<header class="hero container">
-
- <div>
-  <div class="tag">PRIVATE ONE-TO-ONE OFFLINE SUPPORT</div>
-
-  <h1>
-   Build Your Kindle Business.
-   <span>Publish 5 Books.</span>
-  </h1>
-
-  <p class="lead">
-   Work with me personally to establish your Amazon Kindle
-   publishing workflow and take five books through the
-   publishing process with practical, one-to-one support.
-  </p>
-
-  <div class="buttons">
-   <a href="#booking" class="btn primary">Book A Discovery Call →</a>
-   <a href="#program" class="btn secondary">Explore Program</a>
-   <a href="https://amzn.in/d/01nk9ezg"
-      target="_blank" rel="noopener noreferrer"
-      class="btn book-btn">Explore My Published Book ↗</a>
-  </div>
-
-  <p style="color:#888;font-size:12px;margin-top:18px">
-   Appointment-based personal support. Project discussion before enrollment.
-  </p>
- </div>
-
- <div class="offer">
-  <div class="offer-label">FIVE-BOOK PUBLISHING PROGRAM</div>
-  <div class="price">₹50,000 <small>INR / One-time fee</small></div>
-  <p>Personal offline implementation and publishing support.</p>
-
-  <ul>
-   <li>One-to-one offline guidance</li>
-   <li>Amazon KDP workflow setup</li>
-   <li>Five-book publishing support</li>
-   <li>Book listing and metadata guidance</li>
-   <li>Publishing workflow training</li>
-   <li>Practical final handover</li>
-  </ul>
-
-  <a href="#booking" class="btn primary"
-     style="display:block;margin-top:25px">
-     Schedule Your Call
-  </a>
- </div>
-
+<header class="container">
+  <nav>
+    <div class="logo">KINDLE<span>PRIVATE</span></div>
+    <a class="nav-link" href="#apply">PRIVATE PROGRAM ↗</a>
+  </nav>
 </header>
 
-<section id="program">
- <div class="container">
-  <div class="kicker">WHAT WE BUILD TOGETHER</div>
-  <h2>From KDP Setup To Five Published Books.</h2>
-  <p class="section-desc">
-   Not another generic online course. We work on your
-   actual publishing project and build a practical
-   publishing workflow together.
-  </p>
-
-  <div class="grid">
-   <div class="card">
-    <div class="number">01 / FOUNDATION</div>
-    <h3>Amazon KDP Setup</h3>
-    <p>Understand the KDP dashboard, account workflow and publishing requirements.</p>
-   </div>
-
-   <div class="card">
-    <div class="number">02 / STRATEGY</div>
-    <h3>Five-Book Roadmap</h3>
-    <p>Organise five book projects and establish a practical publishing sequence.</p>
-   </div>
-
-   <div class="card">
-    <div class="number">03 / PREPARATION</div>
-    <h3>Book Preparation</h3>
-    <p>Prepare and check manuscript and cover files against publishing requirements.</p>
-   </div>
-
-   <div class="card">
-    <div class="number">04 / OPTIMISATION</div>
-    <h3>Book Listings</h3>
-    <p>Work on titles, descriptions, keywords, categories and listing information.</p>
-   </div>
-
-   <div class="card">
-    <div class="number">05 / EXECUTION</div>
-    <h3>Publish Five Books</h3>
-    <p>Complete the KDP submission workflow for five books, subject to file readiness and platform review.</p>
-   </div>
-
-   <div class="card">
-    <div class="number">06 / HANDOVER</div>
-    <h3>Independent Publishing</h3>
-    <p>Learn to manage your catalogue and repeat the publishing workflow independently.</p>
-   </div>
-  </div>
- </div>
-</section>
-
-<section>
- <div class="container columns">
-  <div>
-   <div class="kicker">THE PROCESS</div>
-   <h2>Simple. Practical. Execution-focused.</h2>
-
-   <div class="steps">
-    <div class="step">
-     <strong>01. Book A Discovery Call</strong>
-     <p>Discuss your goals and publishing requirements.</p>
-    </div>
-    <div class="step">
-     <strong>02. Project Discussion</strong>
-     <p>Review your five-book plan and content readiness.</p>
-    </div>
-    <div class="step">
-     <strong>03. Schedule Offline Sessions</strong>
-     <p>Confirm location, schedule and written scope of work.</p>
-    </div>
-    <div class="step">
-     <strong>04. Setup And Publishing</strong>
-     <p>Work through the agreed five-book publishing implementation.</p>
-    </div>
-   </div>
-  </div>
-
-  <div>
-   <div class="kicker">WHO SHOULD APPLY?</div>
-   <h2>For People Ready To Build.</h2>
-   <ul class="fit-list">
-    <li>First-time authors and aspiring publishers</li>
-    <li>Creators with book ideas or manuscripts</li>
-    <li>People interested in Amazon KDP</li>
-    <li>Entrepreneurs building a book catalogue</li>
-    <li>People who prefer practical personal guidance</li>
-   </ul>
-
-   <div class="note">
-    <strong style="color:white">Important:</strong>
-    The program covers KDP setup and publishing workflow
-    support for five books. Writing, ghostwriting, translation,
-    editing, custom cover design, advertising, paid software
-    and third-party charges are excluded unless agreed
-    separately in writing. You remain the owner and
-    responsible publisher of your KDP account and content.
-   </div>
-  </div>
- </div>
-</section>
-
-<!-- MY PUBLISHED BOOK -->
-<section id="mybook">
- <div class="container">
-
-  <div class="kicker">MY PUBLISHING WORK</div>
-  <h2>Explore My Published Book.</h2>
-
-  <div class="book-section">
-
-   <div>
-    <div class="book-label">AUTHOR & AMAZON KINDLE PUBLISHER</div>
-
-    <h2 style="font-size:29px">
-     Understand How Authors Earn on Amazon Kindle
-    </h2>
-
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">Private One-to-One Publishing Program</div>
+    <h1>Turn Your Ideas Into <span>Published Books.</span></h1>
     <p>
-     Discover the systems behind Kindle royalties,
-     publishing algorithms, advertising and book sales.
-     Explore my work as an independent Kindle publisher.
+      A personal, hands-on Amazon Kindle publishing program
+      designed to help you build your publishing foundation
+      and work towards publishing five books with direct
+      guidance from Sneha and Pritam.
     </p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#apply">Apply for the Program</a>
+      <a class="btn btn-outline" href="#program">Explore the Program</a>
+    </div>
+    <p class="hero-note">Private support · Five-book publishing workflow · Offline one-to-one guidance</p>
 
-    <a href="https://amzn.in/d/01nk9ezg"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn primary">
-       View My Book On Amazon ↗
-    </a>
-
-    <p style="font-size:12px;color:#777;margin-top:15px">
-     Opens the Amazon Kindle book page.
-    </p>
-   </div>
-
-   <div>
-    <img
-      src="https://placehold.co/500x700/171923/ffffff?text=My+Published+Book"
-      alt="Published book by Pritam Jagtap">
-   </div>
-
+    <div class="stats">
+      <div class="stat"><strong>₹50,000</strong><small>Program investment</small></div>
+      <div class="stat"><strong>1-to-1</strong><small>Personal guidance</small></div>
+      <div class="stat"><strong>5 Books</strong><small>Publishing workflow support</small></div>
+    </div>
   </div>
- </div>
 </section>
 
-<!-- CALENDLY BOOKING -->
-<section id="booking">
- <div class="container">
-  <div class="kicker">LET'S DISCUSS YOUR PROJECT</div>
-  <h2>Book Your One-to-One Discovery Call.</h2>
+<section id="program">
+  <div class="container">
+    <div class="section-tag">The program</div>
+    <h2>Build Your Publishing System.</h2>
+    <p class="section-intro">
+      This is a guided publishing service, not a generic video course.
+      We work with you through the practical stages of creating and
+      preparing your books for Amazon Kindle.
+    </p>
 
-  <p class="section-desc">
-   Choose an available time to discuss your publishing goals,
-   the five-book program and the offline support arrangement.
-  </p>
-
-  <div class="booking">
-   <h3>Schedule a Call with Pritam Jagtap</h3>
-   <p>Choose your preferred date and time below.</p>
-
-   <div
-    class="calendly-inline-widget"
-    data-url="https://calendly.com/jagtappritam73/kindle-book-business-startup"
-    style="min-width:320px;height:720px;">
-   </div>
+    <div class="cards">
+      <article class="card">
+        <div class="number">01 / FOUNDATION</div>
+        <h3>Publishing Setup</h3>
+        <p>Understand the Kindle publishing workflow, account setup and essential publishing requirements.</p>
+      </article>
+      <article class="card">
+        <div class="number">02 / PRODUCTION</div>
+        <h3>Five-Book Workflow</h3>
+        <p>Get guided support through planning, preparing and publishing a five-book portfolio.</p>
+      </article>
+      <article class="card">
+        <div class="number">03 / GUIDANCE</div>
+        <h3>Private Support</h3>
+        <p>Work directly with Sneha and Pritam through one-to-one offline guidance and practical assistance.</p>
+      </article>
+    </div>
   </div>
-
-  <p style="text-align:center;color:#888;font-size:12px;margin-top:18px">
-   Booking a call is an initial discussion, not automatic enrollment or payment.
-  </p>
- </div>
 </section>
 
 <section>
- <div class="container">
-  <div class="cta">
-   <div class="kicker">YOUR PUBLISHING JOURNEY STARTS HERE</div>
-   <h2>Let's Build Your Five-Book Catalogue.</h2>
-
-   <p>
-    Get personal guidance, understand the publishing process
-    and discuss how to build your Amazon Kindle publishing business.
-   </p>
-
-   <a class="btn primary"
-      href="https://calendly.com/jagtappritam73/kindle-book-business-startup"
-      target="_blank" rel="noopener noreferrer">
-      Book Your Discovery Call →
-   </a>
-
-   <a class="btn book-btn"
-      href="https://amzn.in/d/01nk9ezg"
-      target="_blank" rel="noopener noreferrer"
-      style="margin-left:8px">
-      Explore My Book ↗
-   </a>
-
-   <p style="font-size:12px;margin-top:20px">
-    ₹50,000 INR · One-to-One · Offline Support · Five Books
-   </p>
+  <div class="container">
+    <div class="program">
+      <div>
+        <div class="section-tag">What is included</div>
+        <h2>Your Five-Book Publishing Journey.</h2>
+        <p class="section-intro">
+          A structured process to help you understand and execute
+          the core stages of Kindle publishing.
+        </p>
+        <ul>
+          <li>Private one-to-one offline support</li>
+          <li>Kindle publishing account and workflow guidance</li>
+          <li>Five-book planning and publishing assistance</li>
+          <li>Book formatting and publishing preparation guidance</li>
+          <li>Amazon listing and metadata guidance</li>
+          <li>Practical guidance on the publishing process</li>
+        </ul>
+      </div>
+      <div class="price-box">
+        <small>PRIVATE PROGRAM INVESTMENT</small>
+        <div class="price">₹50,000</div>
+        <small>One-to-one publishing support</small>
+        <a class="btn btn-primary" href="#apply">Submit Your Interest</a>
+        <p style="font-size:11px;color:#777;margin-top:14px">
+          Book sales, rankings and royalties are not guaranteed.
+          Amazon approval and publishing policies apply.
+        </p>
+      </div>
+    </div>
   </div>
- </div>
 </section>
+
+<section id="books">
+  <div class="container">
+    <div class="section-tag">Read before you begin</div>
+    <h2>Explore Our Kindle Work.</h2>
+    <div class="books">
+      <div class="book-cover">UNDERSTAND HOW AUTHORS EARN ON AMAZON KINDLE</div>
+      <div>
+        <h3>Understand How Authors Earn on Amazon Kindle</h3>
+        <p>
+          Set Your Digital Destiny. Explore the systems behind
+          Kindle royalties, publishing, advertising and book sales.
+        </p>
+        <a class="btn btn-outline" href="https://amzn.in/d/01nk9ezg" target="_blank" rel="noopener">Read on Amazon ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="booking">
+  <div class="container">
+    <div class="section-tag">Schedule a conversation</div>
+    <h2>Book a Discussion.</h2>
+    <p class="section-intro">
+      Submit your details first, then use the calendar to request
+      a discussion slot.
+    </p>
+    <div class="booking">
+      <div class="calendly-inline-widget"
+        data-url="https://calendly.com/jagtappritam73/kindle-book-business-startup">
+      </div>
+      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </div>
+    <p style="color:#888;font-size:12px;margin-top:12px">
+      If the calendar does not load, <a style="color:#ff7777;text-decoration:underline"
+      href="https://calendly.com/jagtappritam73/kindle-book-business-startup" target="_blank" rel="noopener">open Calendly here</a>.
+    </p>
+  </div>
+</section>
+
+<section id="apply">
+  <div class="container">
+    <div class="section-tag">Private program application</div>
+    <h2>Tell Us About Your Publishing Goals.</h2>
+    <p class="section-intro">
+      Share your details. Our team will receive your enquiry,
+      and you will get a confirmation email.
+    </p>
+
+    <div class="booking">
+      <form id="leadForm">
+        <label>Your full name
+          <input type="text" name="name" placeholder="Enter your name" required maxlength="100">
+        </label>
+
+        <label>Email address
+          <input type="email" name="email" placeholder="you@example.com" required maxlength="150">
+        </label>
+
+        <label>Mobile number
+          <input type="tel" name="phone" placeholder="Your contact number" required maxlength="20">
+        </label>
+
+        <label>City
+          <input type="text" name="city" placeholder="Your city" maxlength="100">
+        </label>
+
+        <label>Have you published a book before?
+          <select name="experience" required>
+            <option value="">Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Currently working on my first book</option>
+          </select>
+        </label>
+
+        <label>What kind of books do you want to publish?
+          <textarea name="requirements" placeholder="Tell us about your ideas and goals..." maxlength="1500"></textarea>
+        </label>
+
+        <label class="consent">
+          <input type="checkbox" name="consent" value="yes" required>
+          <span>I agree to be contacted regarding this publishing program and understand that submitting this form does not guarantee acceptance or publishing results.</span>
+        </label>
+
+        <!-- Honeypot field for basic spam protection -->
+        <div style="position:absolute;left:-9999px" aria-hidden="true">
+          <label>Leave this field empty
+            <input type="text" name="website" tabindex="-1" autocomplete="off">
+          </label>
+        </div>
+
+        <button class="btn btn-primary" id="submitBtn" type="submit">Submit My Application</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
 
 <footer>
- <div class="container footer-inner">
-  <span>© <span id="year"></span> Pritam Jagtap. All rights reserved.</span>
-  <span>Independent publishing support. Not affiliated with Amazon.</span>
- </div>
+  <div class="container footer-inner">
+    <span>© 2026 Sneha & Pritam · Private Kindle Publishing Support</span>
+    <span>Independent publishing guidance. Not affiliated with Amazon.</span>
+  </div>
 </footer>
 
 <script>
-document.getElementById("year").textContent =
-new Date().getFullYear();
-</script>
+const SCRIPT_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
 
+const form = document.getElementById("leadForm");
+const statusText = document.getElementById("formStatus");
+const submitBtn = document.getElementById("submitBtn");
+
+form.addEventListener("submit", async function(event) {
+  event.preventDefault();
+
+  if (SCRIPT_URL.includes("PASTE_YOUR")) {
+    statusText.textContent = "Website email connection is not configured yet.";
+    return;
+  }
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Submitting...";
+  statusText.textContent = "Please wait while we submit your details.";
+
+  const formData = new FormData(form);
+  const payload = Object.fromEntries(formData.entries());
+
+  try {
+    const response = await fetch(SCRIPT_URL, {
+      method: "POST",
+      body: JSON.stringify(payload)
+    });
+
+    const result = await response.json();
+
+    if (!response.ok || !result.success) {
+      throw new Error(result.message || "Submission failed.");
+    }
+
+    form.reset();
+    statusText.textContent =
+      "Thank you! Your details have been submitted. Please check your email for our confirmation.";
+  } catch (error) {
+    statusText.textContent =
+      "We could not submit your details. Please try again or contact us through the booking link.";
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Submit My Application";
+  }
+});
+</script>
 </body>
 </html>
+
